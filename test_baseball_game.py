@@ -8,7 +8,6 @@ from io import StringIO
 
 
 class TestBaseballGame(unittest.TestCase):
-
     def test_is_digit(self):
         self.assertEqual(True, bg.is_digit("3232"))
         self.assertEqual(False, bg.is_digit("32.2"))
